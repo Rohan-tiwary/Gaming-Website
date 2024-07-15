@@ -1,0 +1,346 @@
+body {
+  background-color: #150905;
+  color: #eee;
+  font-family: sans-serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.button {
+  background-color: rgb(255, 75, 75);
+  color: #eee;
+  padding: 0.5em 1.5em;;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(199, 83, 83);
+}
+.content p{
+    font-size: 1.2em;
+    text-align: left;
+}
+.pinkL{
+    color: rgb(191, 102, 102);
+    font-size: 70px;
+}
+.long{
+    color:rgb(114, 98, 98);
+    margin-bottom: 19px;
+    line-height: 3px;
+
+}
+
+  
+  .content {
+    text-align: left; /* Align all text inside .content to the left */
+  }
+
+  
+  .content h1 {
+    margin: 0; /* Optional: remove default margin for h1 */
+  }
+
+  .long p{
+    color: rgb(95, 88, 81);
+    margin-bottom: 10px; 
+  }
+ 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 0;
+  margin-bottom: 65px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 4em;
+}
+
+.nav-links li a {
+  color: #eee;
+  text-decoration: none;
+  padding:10px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+.nav-right:hover {
+    text-decoration: underline;
+  }
+
+.logo {
+
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav-right a{
+    color:white;
+    cursor:pointer;
+}
+h1{
+    font-size: 80px;
+}
+.projects {
+    text-align: center; /* Center the heading */
+}
+
+.image-row {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+    margin-top: 20px; /* Space above the row of images */
+}
+
+.src {
+    max-width: 200px; /* Adjust the image size if needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+.supporters {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 30vh; /* Full viewport height to center vertically */
+    margin-top: 30px; /* Add space from the top */
+    width: auto;
+}
+
+.supporters2 {
+    margin-top: 8vw;
+    width: 100%;
+    height: 60vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.src1 {
+    width: 1100px; /* Set the width to 500 pixels */
+    height: 741px; /* Set the height to 300 pixels */
+    object-fit: cover;
+}
+.imagination{
+    display: flex;
+    justify-content: center;
+}
+
+.src2 {
+    width: 1700px; /* Set the width to 500 pixels */
+    height: 741px; /* Set the height to 300 pixels */
+    object-fit: cover;
+}
+.container {
+  display: flex;
+  justify-content: space-around; /* Ensure the content and the image are at opposite ends */
+  align-items: center; /* Vertically center the content and image */
+  width: 100%;
+  height: 601px; /* Set the height to match the image height */
+}
+
+.content {
+  flex: 1; /* Allow the content to take up available space */
+  padding: 10px; /* Add some padding for better visual spacing */
+}
+
+.src3 {
+  display: flex;
+  justify-content: flex-end; /* Ensure the image is aligned to the right */
+}
+
+.src3 img {
+  width:100%;
+  max-width: 90%; /* Ensure the image scales appropriately */
+  height: 100%; /* Make sure the image height matches the container */
+  object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+.src4{
+  margin:10px;
+  padding: 10px;
+}
+.solutions-container {
+  display: flex;
+  justify-content: space-around; /* Space out the items evenly */
+  align-items: flex-start; /* Align items to the start of the container */
+  padding: 20px;
+  gap: 20px; /* Add some space between the items */
+}
+
+/* Solutions item */
+.solutions {
+  background: #ffd3d3; /* Light background color for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  text-align: center; /* Center-align text */
+  width: 300px; /* Limit the width of each item */
+}
+
+.solutions img {
+  width: 100%; /* Ensure the image fills the container */
+  border-radius: 10px 10px 0 0;
+  flex-grow: 1; /* Match the border radius of the container */
+}
+
+.solutions h2 {
+  margin: 20px 0 10px; /* Add space above and below the heading */
+  color: #353131; /* Dark text color */
+}
+
+.solutions p {
+  margin: 5px 0; /* Add space between paragraphs */
+  color: #666; /* Medium text color */
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adds space below the 'Our Founder and CEO' paragraph */
+}
+
+.people p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below the 'Our Founder and CEO' text */
+}
+
+.ceo {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing between the two persons */
+}
+
+.person {
+  text-align: center;
+}
+
+.person img {
+  width: 150px; /* Adjust image size as needed */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes the image round */
+  margin-bottom: 10px; /* Adds space between the image and name */
+}
+
+.person p {
+  margin: 0; /* Removes default margin for paragraph */
+}
+.Community {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Adds space below the 'Join Our Community' heading */
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing between icons */
+  align-items: center;
+}
+
+.icon-link {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transform-style: preserve-3d; /* Ensures child elements rotate correctly */
+}
+
+.icon-box {
+  position: relative;
+  width: 100px; /* Adjust box size as needed */
+  height: 100px;
+  perspective: 5000px; /* Adds perspective for 3D effect */
+}
+
+.icon-box:hover {
+  transform: rotateY(19deg); /* Tilt the box on hover */
+}
+
+.icon-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Rounds the corners of the box */
+  transition: transform 0.3s ease-out; /* Smoothens transition */
+}
+
+.icon-box {
+  position: relative;
+  width: 100px; /* Adjust box size as needed */
+  height: 100px;
+  perspective: 1000px; /* Adds perspective for 3D effect */
+  margin: 10px; /* Adds margin around each icon-box */
+}
+
+.icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Rounds the corners of the box */
+}
+
+.icon-box p {
+  position: absolute;
+  bottom: -25px; /* Adjust distance from the bottom */
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #fff; /* Text color */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 5px 10px;
+  border-radius: 4px; /* Rounds the corners of the button */
+  transition: bottom 0.3s ease; /* Smoothens transition */
+}
+
+.icon-link {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transform-style: preserve-3d; /* Ensures child elements rotate correctly */
+}
+
+.icon-link:hover .icon-box p {
+  bottom: -30px; /* Adjust distance from the bottom on hover */
+}
+
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
